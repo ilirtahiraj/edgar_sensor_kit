@@ -21,7 +21,7 @@
     </group>
 
     <group>
-      <push-ros-namespace namespace="camera_fc"/>
+      <push-ros-namespace namespace="camera_fl"/>
 
       <!-- (usb_cam_node is assumed to have launched on logging PC) -->
       <node pkg="topic_tools" exec="relay" name="camera_info_relay_fl" output="log">
@@ -40,7 +40,7 @@
     </group>
 
     <group>
-      <push-ros-namespace namespace="camera_fc"/>
+      <push-ros-namespace namespace="camera_fr"/>
 
       <!-- (usb_cam_node is assumed to have launched on logging PC) -->
       <node pkg="topic_tools" exec="relay" name="camera_info_relay_fr" output="log">
@@ -59,7 +59,7 @@
     </group>
 
     <group>
-      <push-ros-namespace namespace="camera_fc"/>
+      <push-ros-namespace namespace="camera_rc"/>
 
       <!-- (usb_cam_node is assumed to have launched on logging PC) -->
       <node pkg="topic_tools" exec="relay" name="camera_info_relay_rc" output="log">
